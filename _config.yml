@@ -1,0 +1,20 @@
+# Site settings
+title: Jay Terrestrial and the Firepit Collective
+email: info@innerterrestrials.co.uk
+description: A blend of modern and traditional music along with jigs and reels; folk music has been taken in, anarchised and re-processed with a real hard political edge. Jay Terrestrial and the Firepit Collective have a large and enthusiastic fanbase who never fail to liven up the venues where they play.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://firepitcollective.co.uk" # the base hostname & protocol for your site
+twitter: "@firepitfolk"
+#twitter_image: http://networkedplanet.com/assets/images/np-220px.png
+
+# Build settings
+markdown: kramdown
+
+sass:
+    sass_dir: _sass
+    
+
+permalink: /blog/:year/:month/:day/:title.html
+paginate: 6
+paginate_path: "/blog/page:num/"
+tag_dir: "/blog/tags"
